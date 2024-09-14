@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f7c99db-47e7-4acf-bdff-6c9467976134" name="Changes" comment="get api and post api test case">
-      <change beforePath="$PROJECT_DIR$/API DEMO/test_post_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/API DEMO/test_post_api.py" afterDir="false" />
+    <list default="true" id="0f7c99db-47e7-4acf-bdff-6c9467976134" name="Changes" comment="get api and post api test case test">
+      <change afterPath="$PROJECT_DIR$/API DEMO/test_put_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726288865605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="get api and post api test case test">
+      <option name="closed" value="true" />
+      <created>1726289097597</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726289097597</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,7 +199,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="get api and post api test case" />
-    <option name="LAST_COMMIT_MESSAGE" value="get api and post api test case" />
+    <MESSAGE value="get api and post api test case test" />
+    <option name="LAST_COMMIT_MESSAGE" value="get api and post api test case test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
