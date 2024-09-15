@@ -3,7 +3,7 @@ import pytest
 import json
 
 
-end_point="https://reqres.in/api/users/932"
+end_point="https://reqres.in/api/users/2"
 
 def test_getAPI():
     response= requests.get(end_point)
