@@ -13,6 +13,7 @@ payload={
 
 def test_post_fakeAPI():
     response=requests.post(endpoint,json=payload)
+    print(response)
     response_capture_in_json=response.json()
     print(response_capture_in_json)
     # print based on JSON data
