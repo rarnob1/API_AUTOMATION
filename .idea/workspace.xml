@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f7c99db-47e7-4acf-bdff-6c9467976134" name="Changes" comment="PUT api test with passing header and different test methods">
-      <change afterPath="$PROJECT_DIR$/API DEMO/test_auth_token.py" afterDir="false" />
+    <list default="true" id="0f7c99db-47e7-4acf-bdff-6c9467976134" name="Changes" comment="Add beaeer token to the Headerfile Test">
+      <change afterPath="$PROJECT_DIR$/API DEMO/test_parameterization.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Python tests.Python tests for test_fake_api_PUT.test_name_assertion.executor": "Run",
     "Python tests.Python tests for test_fake_api_PUT.test_put_fakeAPI.executor": "Run",
     "Python tests.Python tests for test_get_api.test_getAPI.executor": "Run",
+    "Python tests.Python tests for test_parameterization.test_get_user_by_param.executor": "Run",
     "Python tests.Python tests for test_put_api.test_put_api.executor": "Run",
     "Python tests.Python tests in test_auth_token.py.executor": "Run",
     "Python tests.Python tests in test_fake_api_PUT.py.executor": "Run",
@@ -63,7 +64,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_auth_token.py">
+  <component name="RunManager" selected="Python tests.Python tests for test_parameterization.test_get_user_by_param">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="API_AUTOMATION" />
       <option name="ENV_FILES" value="" />
@@ -101,21 +102,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_fake_api_PUT.test_ID_assertion" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="API_AUTOMATION" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API DEMO" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_fake_api_PUT.test_ID_assertion&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_fake_api_PUT.test_name_assertion" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="API_AUTOMATION" />
       <option name="ENV_FILES" value="" />
@@ -128,6 +114,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_fake_api_PUT.test_name_assertion&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_parameterization.test_get_user_by_param" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="API_AUTOMATION" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API DEMO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_parameterization.test_get_user_by_param&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_parameterization.test_get_user_by_param" />
         <item itemvalue="Python tests.Python tests in test_auth_token.py" />
         <item itemvalue="Python tests.Python tests for test_auth_token.test_auth" />
         <item itemvalue="Python tests.Python tests in test_fake_api_PUT.py" />
         <item itemvalue="Python tests.Python tests for test_fake_api_PUT.test_name_assertion" />
-        <item itemvalue="Python tests.Python tests for test_fake_api_PUT.test_ID_assertion" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726453404692</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add beaeer token to the Headerfile Test">
+      <option name="closed" value="true" />
+      <created>1726460840730</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726460840730</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,7 +304,8 @@
     <MESSAGE value="added assertion for put api" />
     <MESSAGE value="Fake API parse from json and assertion (POST)" />
     <MESSAGE value="PUT api test with passing header and different test methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="PUT api test with passing header and different test methods" />
+    <MESSAGE value="Add beaeer token to the Headerfile Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add beaeer token to the Headerfile Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
