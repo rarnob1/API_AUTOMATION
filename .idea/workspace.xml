@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f7c99db-47e7-4acf-bdff-6c9467976134" name="Changes" comment="added asertion for test_post_api">
+    <list default="true" id="0f7c99db-47e7-4acf-bdff-6c9467976134" name="Changes" comment="added assertion for put api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API DEMO/test_put_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/API DEMO/test_put_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726439398708</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added assertion for put api">
+      <option name="closed" value="true" />
+      <created>1726440295737</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726440295737</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +260,8 @@
     <MESSAGE value="get api and post api test case test" />
     <MESSAGE value="test file added for PUT API test" />
     <MESSAGE value="added asertion for test_post_api" />
-    <option name="LAST_COMMIT_MESSAGE" value="added asertion for test_post_api" />
+    <MESSAGE value="added assertion for put api" />
+    <option name="LAST_COMMIT_MESSAGE" value="added assertion for put api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
